@@ -9,7 +9,10 @@ angular.
   }]).
  factory('notify', ['$window', '$http', function(win, $http) {
     return function(msg) {
-      $http.post('http://' + msg, 'longitude=-77&latitude=40').then(function(response) {
+      if (!msg.startsWith('h')) {
+        msg = 'http://' + msg
+      }
+      $http.post(msg, 'longitude=-77&latitude=40').then(function(response) {
         win.alert(response.data)
       }, function(response) {
         win.alert(response.status)
