@@ -80,8 +80,7 @@ namespace ApplicationResources.Logging
             {
                 if (Settings.TryGet<string>(BasicSettings.LoggerConfigurationFile, out var configFileLocation))
                 {
-                    var logDirectoryParent = Settings.Get<string>(BasicSettings.ProjectRootDirectory);
-                    var filepath = Path.Combine(logDirectoryParent, configFileLocation);
+                    var filepath = configFileLocation;
                     var dataStoreAccessor = GlobalDependencies.Get<IDataStoreAccessor>();
                     if (await dataStoreAccessor.ExistsAsync(filepath, cancellationToken).WithoutContextCapture())
                     {
