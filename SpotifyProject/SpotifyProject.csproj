@@ -36,11 +36,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.editorconfig" />
-    <Content Include="..\..\work-identifier\bin\libworkIdentifier.dylib">
-      <Link>libworkIdentifier.dylib</Link>
-      <PublishState>Prerequisite</PublishState>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="$(SettingsTemplatesDir)\lukesShuffleSettings.xml">
       <Link>lukesShuffleSettings.xml</Link>
       <PublishState>Prerequisite</PublishState>
