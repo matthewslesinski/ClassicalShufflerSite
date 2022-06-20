@@ -101,7 +101,7 @@
       "url": "standardConfigurationSettings.xml"
     },
     {
-      "hash": "sha256-1BcqUsQDUKcUP1wVOYckGEOzNYWG8uu6WgXPn1lZi6A=",
+      "hash": "sha256-VvknjEmxFdrdhiOauZfM3foIAIeJpAxxd5PyyEGwfHo=",
       "url": "standardRunSettings.xml"
     },
     {
@@ -109,7 +109,7 @@
       "url": "standardSettings.xml"
     },
     {
-      "hash": "sha256-KapDSaZphh55lcUmyyP80YQZqP05zufKrZmJpvghRFU=",
+      "hash": "sha256-Jxvy+quswFNbBKIohSh15bHxq+mChYR8g8Z\/KkacNGU=",
       "url": "standardSpotifySettings.xml"
     },
     {
@@ -145,15 +145,15 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-mdpr7Q4qiWh71QwTs+lT83+JEO+ClOWnd5RPHivCV\/8=",
+      "hash": "sha256-iHPxin7aXtQS1NrxIEskiGsva1ex\/MoAAzmsNyJLe1Q=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-IN2afeD32Kxcl6GZ3Zrs+B0kqUw7TRI9TlnfMOom7fM=",
+      "hash": "sha256-CEeE8+Nhlc09MC5UJTgPR7Up2Vs0dE0OFjw0Md\/gbrY=",
       "url": "_framework\/ApplicationResources.dll"
     },
     {
-      "hash": "sha256-LLz+Jib0tL9XrHno6uQ6NAklgPqpnRrKmwJmHrv53sk=",
+      "hash": "sha256-3VPYM8MExbyGtMlfglmD\/vrQP0S2CprNZ2HH+hNn4tw=",
       "url": "_framework\/BlazorApplicationResources.dll"
     },
     {
@@ -165,7 +165,7 @@
       "url": "_framework\/Blazored.LocalStorage.dll"
     },
     {
-      "hash": "sha256-Z70KPb2KHByfFqzen5ZS5sB4\/1Eub6yELZVZdnweyL8=",
+      "hash": "sha256-tP6wUVnI3NoHh8i1aYTV\/YtX6fIjA3CRWj+eTs8N4Dg=",
       "url": "_framework\/ClassicalSpotifyShuffler.dll"
     },
     {
@@ -325,7 +325,7 @@
       "url": "_framework\/SpotifyAPI.Web.dll"
     },
     {
-      "hash": "sha256-3ToBt2kxk16pp5pfqRyJN4LBiE0ibQ\/qa9p2aggsRQ0=",
+      "hash": "sha256-qA4TtwGSxiu2\/JU3Qx9X5UD9XzrqHN88p7vLuK\/WMiQ=",
       "url": "_framework\/SpotifyProject.dll"
     },
     {
@@ -597,5 +597,5 @@
       "url": "_content\/Blazor.ContextMenu\/blazorContextMenu.min.js"
     }
   ],
-  "version": "q8KTlEor"
+  "version": "pAEkbeNc"
 };
