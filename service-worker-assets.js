@@ -145,7 +145,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-iHPxin7aXtQS1NrxIEskiGsva1ex\/MoAAzmsNyJLe1Q=",
+      "hash": "sha256-LCYtHn3VK14iNZfprge4E4Sd9yedXNs4aP1YkvR6oiw=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -165,7 +165,7 @@
       "url": "_framework\/Blazored.LocalStorage.dll"
     },
     {
-      "hash": "sha256-tP6wUVnI3NoHh8i1aYTV\/YtX6fIjA3CRWj+eTs8N4Dg=",
+      "hash": "sha256-TvsuD15I5R79je1UaBaK30TGs0MAqkbRb68A70hNzYY=",
       "url": "_framework\/ClassicalSpotifyShuffler.dll"
     },
     {
@@ -597,5 +597,5 @@
       "url": "_content\/Blazor.ContextMenu\/blazorContextMenu.min.js"
     }
   ],
-  "version": "pAEkbeNc"
+  "version": "z+03xXDV"
 };
