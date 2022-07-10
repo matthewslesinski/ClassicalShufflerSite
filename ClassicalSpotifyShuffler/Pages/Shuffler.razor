@@ -307,7 +307,7 @@ else
         int totalCount;
         if (currentFilter != null)
         {
-            items = Enumerable.Range(request.StartIndex, Math.Min(request.Count, currentFilter.Count - request.StartIndex)).Select(index => currentFilter[index]).ToList();
+            items = Enumerable.Range(request.StartIndex, (currentFilter.Count - request.StartIndex).Constrain(0, request.Count)).Select(index => currentFilter[index]).ToList();
             totalCount = currentFilter.Count;
         }
         else
@@ -353,7 +353,7 @@ else
     private async Task ApplyFilter<T, DisplayT>(MutableClassReference<List<T>?> filterReference, IQueryCache<T> cache, Virtualize<DisplayT> displayList, string? searchString, Func<T, string> NameGetter)
     {
         using (new TaskRecorder(_numberOfTasksRunning))
-		{
+        {
             if (searchString == null)
                 filterReference.AtomicExchange(null);
             else
@@ -394,18 +394,18 @@ else
     }
 
     private class TaskRecorder : StandardDisposable
-	{
+    {
         private MutableReference<int> _reference;
         internal TaskRecorder(MutableReference<int> numberOfTasksRunning)
-		{
+        {
             _reference = numberOfTasksRunning;
             _reference.Value += 1;
-		}
+        }
 
         protected override void DoDispose()
-		{
+        {
             _reference.Value -= 1;
             _reference = null;
-		}
-	}
+        }
+    }
 }
